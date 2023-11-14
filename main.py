@@ -1,1 +1,1 @@
-priryqoweyqtuont("Hola, mundo")
+print("Hola, mundo")
