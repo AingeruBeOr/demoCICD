@@ -13,3 +13,9 @@ jobs:
 
       - name: Probar código
         run: python3 main.py
+
+      - name: Crear imagen Docker
+        run: docker build -t aingerubeor/holamundo .
+
+      - name: Probar imagen
+        run: docker run aingerubeor/holamundo
