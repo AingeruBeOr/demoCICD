@@ -1,0 +1,12 @@
+name: Mi workflow
+
+# Cuando suceda qué
+on: push
+
+# Lo que queremos que suceda
+jobs:
+  tareas:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mostrar mensaje 
+        run: echo "Hola, GH Actions"
