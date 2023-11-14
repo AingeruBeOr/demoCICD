@@ -1,7 +1,10 @@
 name: Mi workflow
 
 # Cuando suceda qué
-on: push
+on:
+  push:
+    branches:
+      - main
 
 # Lo que queremos que suceda
 jobs:
