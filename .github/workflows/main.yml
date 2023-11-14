@@ -8,5 +8,8 @@ jobs:
   tareas:
     runs-on: ubuntu-latest
     steps:
-      - name: Mostrar mensaje 
-        run: echo "Hola, GH Actions"
+      - name: Bajar código 
+        uses: actions/checkout@v4
+
+      - name: Probar código
+        run: python3 main.py
